@@ -15,7 +15,7 @@ include('header.php');
             <!-- Wrapper for slides -->
             <div class="carousel-inner" role="listbox">
                 <div class="item active">
-                    <img src="images/slider/slider.jpg" alt="Slider 1">
+                    <img src="images/slider/slider_2.jpg" alt="Slider 1">
                     <div class="carousel-caption"></div>
                 </div>
                 <div class="item">
@@ -65,36 +65,69 @@ include('header.php');
                                 <a href="javascript:void(0)" class="btn btn-default">Urdu ( اردو )</a>
                             </div>
                             <div class="btn-group sj" data-animate="fadeIn" data-animation-delay="400" role="group" aria-label="Basic example">
-                                <a href="javascript:void(0)" class="btn btn-default">English</a>
+                                <a href="javascript:void(0)" class="btn btn-default">Spanish (Español)</a>
                             </div>
                             <div class="btn-group sj" data-animate="fadeIn" data-animation-delay="500" role="group" aria-label="Basic example">
-                                <a href="javascript:void(0)" class="btn btn-default">Bangla ( বাংলা )</a>
+                                <a href="javascript:void(0)" class="btn btn-default">French ( francés )</a>
                             </div>
                             <div class="btn-group sj" data-animate="fadeIn" data-animation-delay="600" role="group" aria-label="Basic example">
-                                <a href="javascript:void(0)" class="btn btn-default">Urdu ( اردو )</a>
+                                <a href="javascript:void(0)" class="btn btn-default">German ( Deutsch )</a>
                             </div>
                             <div class="btn-group sj" data-animate="fadeIn" data-animation-delay="700" role="group" aria-label="Basic example">
-                                <a href="javascript:void(0)" class="btn btn-default">English</a>
+                                <a href="javascript:void(0)" class="btn btn-default">Chinese ( 中文 )</a>
                             </div>
                             <div class="btn-group sj" data-animate="fadeIn" data-animation-delay="800" role="group" aria-label="Basic example">
-                                <a href="javascript:void(0)" class="btn btn-default">Bangla ( বাংলা )</a>
+                                <a href="javascript:void(0)" class="btn btn-default">Russian  ( русский )</a>
                             </div>
                             <div class="btn-group sj" data-animate="fadeIn" data-animation-delay="900" role="group" aria-label="Basic example">
-                                <a href="javascript:void(0)" class="btn btn-default">Urdu ( اردو )</a>
+                                <a href="javascript:void(0)" class="btn btn-default">Arabic ( العربية )</a>
                             </div>
                         </div>
                     </div>
                     <div class="row">
-                        <div class="col-xs-12 languages all">
-                            <?php
-                            for ($i = 0; $i < 20; $i++) {
-                                ?>
-                                <div class="btn-group" role="group" aria-label="Basic example">
-                                    <a href="javascript:void(0)" class="btn btn-default">Urdu ( اردو )</a>
-                                </div>
-                                <?php
-                            }
-                            ?>
+                        <div class="col-xs-12 languages all"> 
+                            <div class="btn-group sj" data-animate="fadeIn" data-animation-delay="100" role="group" aria-label="Basic example">
+                                <a href="javascript:void(0)" class="btn btn-default">Albanian ( Shqiptar )</a>
+                            </div>
+                            <div class="btn-group sj" data-animate="fadeIn" data-animation-delay="120" role="group" aria-label="Basic example">
+                                <a href="javascript:void(0)" class="btn btn-default">Brahui ( Brahui )</a>
+                            </div>
+                            <div class="btn-group sj" data-animate="fadeIn" data-animation-delay="140" role="group" aria-label="Basic example">
+                                <a href="javascript:void(0)" class="btn btn-default">Bosnian ( Bosanski )</a>
+                            </div>
+                            <div class="btn-group sj" data-animate="fadeIn" data-animation-delay="160" role="group" aria-label="Basic example">
+                                <a href="javascript:void(0)" class="btn btn-default">Burmese ( Burmese )</a>
+                            </div>
+                            <div class="btn-group sj" data-animate="fadeIn" data-animation-delay="180" role="group" aria-label="Basic example">
+                                <a href="javascript:void(0)" class="btn btn-default">Burmese ( Burmese )</a>
+                            </div>
+                            <div class="btn-group sj" data-animate="fadeIn" data-animation-delay="200" role="group" aria-label="Basic example">
+                                <a href="javascript:void(0)" class="btn btn-default">Bulgarian ( български )</a>
+                            </div>
+                            <div class="btn-group sj" data-animate="fadeIn" data-animation-delay="220" role="group" aria-label="Basic example">
+                                <a href="javascript:void(0)" class="btn btn-default">Filipino / Philippines / Tagalog</a>
+                            </div>
+                            <div class="btn-group sj" data-animate="fadeIn" data-animation-delay="240" role="group" aria-label="Basic example">
+                                <a href="javascript:void(0)" class="btn btn-default">Fulani (Fulani)</a>
+                            </div>
+                            <div class="btn-group sj" data-animate="fadeIn" data-animation-delay="260" role="group" aria-label="Basic example">
+                                <a href="javascript:void(0)" class="btn btn-default">Hindi ( हिंदी )</a>
+                            </div>
+                            <div class="btn-group sj" data-animate="fadeIn" data-animation-delay="280" role="group" aria-label="Basic example">
+                                <a href="javascript:void(0)" class="btn btn-default">Japanese ( 日本語 )</a>
+                            </div>
+                            <div class="btn-group sj" data-animate="fadeIn" data-animation-delay="300" role="group" aria-label="Basic example">
+                                <a href="javascript:void(0)" class="btn btn-default">Kashmiri</a>
+                            </div>
+                            <div class="btn-group sj" data-animate="fadeIn" data-animation-delay="320" role="group" aria-label="Basic example">
+                                <a href="javascript:void(0)" class="btn btn-default">Kazakh ( Қазақ )</a>
+                            </div>
+                            <div class="btn-group sj" data-animate="fadeIn" data-animation-delay="340" role="group" aria-label="Basic example">
+                                <a href="javascript:void(0)" class="btn btn-default">Korean ( 한국어 )</a>
+                            </div>
+                            <div class="btn-group sj" data-animate="fadeIn" data-animation-delay="360" role="group" aria-label="Basic example">
+                                <a href="javascript:void(0)" class="btn btn-default">Mexican</a>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -109,9 +142,9 @@ include('header.php');
             </div>
         </div>
         <script type="text/javascript">
-            $(document).ready(function () {
+            $(document).ready(function() {
                 /*========== Languages Show Hide Button ==========*/
-                $('#show_hide_button').click(function () {
+                $('#show_hide_button').click(function() {
                     var status = $(this).attr('data-status');
                     if (status === 'hidden') {
                         $('.languages.all').slideDown();
@@ -143,7 +176,7 @@ include('header.php');
                                 <img src="images/youtube_thumbs/thumb_1.jpg" alt="...">
                                 <div class="caption click_for_modal">
                                     <h3><a href="javascript:void(0)">How the Bible Led Me to Islam</a></h3>
-                                    <p>Hamza Yusuf is an American Islamic scholar, and is co-founder of Zaytuna College. He is a proponent of classical learning in Islam and has promoted Islamic sciences and classical teaching methodologies throughout the world.</p>
+                                    <p>Hamza Yusuf is an American Islamic scholar, and is co-founder of Zaytuna College. He is a proponent of classical learning in Islam</p>
                                 </div>
                             </div>
                         </div><!-- End Item -->
@@ -154,7 +187,7 @@ include('header.php');
                                 <img src="images/youtube_thumbs/thumb_2.jpg" alt="...">
                                 <div class="caption click_for_modal">
                                     <h3><a href="javascript:void(0)">A Christian Minister's Conversion to Islam</a></h3>
-                                    <p>Jerald Dirks is a former minister of the United Methodist Church. He holds a Master's degree in Divinity from Harvard University and a Doctorate in Psychology from the University of Denver.</p>
+                                    <p>Jerald Dirks is a former minister of the United Methodist Church. He holds a Master's degree in Divinity from Harvard University.</p>
                                 </div>
                             </div>
                         </div><!-- End Item -->
@@ -165,7 +198,7 @@ include('header.php');
                                 <img src="images/youtube_thumbs/thumb_3.jpg" alt="...">
                                 <div class="caption click_for_modal">
                                     <h3><a href="javascript:void(0)">A Catholic TV asked Sheikh Yusuf Estes</a></h3>
-                                    <p>Yusuf Estes is an American preacher from Texas who converted from Christianity to Islam in 1991. He claims to have been a Muslim Chaplain for the United States Bureau of Prisons through the 1990s.</p>
+                                    <p>Yusuf Estes is an American preacher from Texas who converted from Christianity to Islam. He claims to have been a Muslim Chaplain.</p>
                                 </div>
                             </div>
                         </div><!-- End Item -->
@@ -176,7 +209,7 @@ include('header.php');
                                 <img src="images/youtube_thumbs/thumb_4.jpg" alt="...">
                                 <div class="caption click_for_modal">
                                     <h3><a href="javascript:void(0)">Why I came to Islam</a></h3>
-                                    <p>Hamza Yusuf is an American Islamic scholar, and is co-founder of Zaytuna College. He is a proponent of classical learning in Islam and has promoted Islamic sciences throughout the world.</p>
+                                    <p>Hamza Yusuf is an American Islamic scholar, and is co-founder of Zaytuna College. He is a proponent of classical learning in Islam.</p>
                                 </div>
                             </div>
                         </div><!-- End Item -->
@@ -192,7 +225,7 @@ include('header.php');
             <div class="row">
                 <div class="col-xs-12 col-md-6">
                     <div class="item sj" data-animate="fadeInRight" data-animation-delay="400">
-                        <h1 class="section_title">Listen Qur’an online</h1>
+                        <h1 class="section_title">Listen Qur’an Online</h1>
                         <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam.</p>
                         <div class="row">
                             <div class="full_480 col-xs-12 col-md-9">
@@ -211,11 +244,12 @@ include('header.php');
                                     <li><a href="javascript:void(0)" data-satus="hidden" data-source="audio/BlueDucks_FourFlossFiveSix"><span class="text">SURAH 002 - AL-BAQRAH B</span></a></li>
                                     <li><a href="javascript:void(0)" data-satus="hidden" data-source="audio/BlueDucks_FourFlossFiveSix"><span class="text">SURAH 002 - AL-BAQRAH C</span></a></li>
                                     <li><a href="javascript:void(0)" data-satus="hidden" data-source="audio/BlueDucks_FourFlossFiveSix"><span class="text">SURAH 002 - AL-BAQRAH D</span></a></li>
+                                    <li class="no_icon"><a href="javascript:void(0)">Click for more</a></li>
                                 </ul>
                             </div>
                             <script type="text/javascript">
-                                $(document).ready(function () {
-                                    $('.audio_links li a span').click(function () {
+                                $(document).ready(function() {
+                                    $('.audio_links li a span').click(function() {
                                         var status = $(this).parent().attr('data-satus');
                                         var source = $(this).parent().attr('data-source');
                                         if (status === 'hidden') {
@@ -227,7 +261,7 @@ include('header.php');
                                                     '<source src="' + source + '.ogg">' +
                                                     '<source src="' + source + '.wav">' +
                                                     '</audio>';
-                                            var button = '<a href="' + source + '.mp3" class="download_btn" download="'+source+'"><i class="fa fa-download"></i></a>';
+                                            var button = '<a href="' + source + '.mp3" class="download_btn" download="' + source + '"><i class="fa fa-download"></i></a>';
                                             $(this).parent().append(html);
                                             $('audio').mediaelementplayer();
                                             $('.audio_links li .mejs-controls').append(button);
@@ -240,14 +274,15 @@ include('header.php');
                             </script>
                             <div class="full_480 col-xs-12 text-right text">
                                 <a href="javascript:void(0)" class="btn btn-default dark read_button">All Audio</a>
-                                <span class="hints">Click this button above to listen all audio.</span>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="col-xs-12 col-md-6">
-                    <div class="item sj read_quran" data-animate="fadeInLeft" data-animation-delay="400">
-                        <h1 class="section_title">Read Qur’an online</h1>
+                    <div class="items sj read_quran" data-animate="fadeInLeft" data-animation-delay="400">
+                        <img src="images/read_quran.jpg" alt="" />
+                        <!--
+                        <h1 class="section_title">Read Qur’an Online</h1>
                         <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam.</p>
                         <div class="row">
                             <div class="full_480 col-xs-9 col-md-9">
@@ -303,7 +338,7 @@ include('header.php');
                                 <a href="javascript:void(0)" class="btn btn-default dark read_button">All PDF</a>
                                 <span class="hints">Click this button above to read in any language.</span>
                             </div>
-                        </div>
+                        </div-->
                     </div>
                 </div>
             </div>
@@ -343,7 +378,7 @@ include('header.php');
                                             <img src="images/youtube_thumbs/thumb_1.jpg" alt="...">
                                             <div class="caption click_for_modal">
                                                 <h3><a href="javascript:void(0)">How the Bible Led Me to Islam</a></h3>
-                                                <p>Hamza Yusuf is an American Islamic scholar, and is co-founder of Zaytuna College. He is a proponent of classical learning in Islam and has promoted Islamic sciences and classical teaching methodologies throughout the world.</p>
+                                                <p>Hamza Yusuf is an American Islamic scholar, and is co-founder of Zaytuna College. He is a proponent of classical learning in Islam.</p>
                                             </div>
                                         </div>
                                     </div><!-- End Item -->
@@ -354,7 +389,7 @@ include('header.php');
                                             <img src="images/youtube_thumbs/thumb_2.jpg" alt="...">
                                             <div class="caption click_for_modal">
                                                 <h3><a href="javascript:void(0)">A Christian Minister's Conversion to Islam</a></h3>
-                                                <p>Jerald Dirks is a former minister of the United Methodist Church. He holds a Master's degree in Divinity from Harvard University and a Doctorate in Psychology from the University of Denver.</p>
+                                                <p>Jerald Dirks is a former minister of the United Methodist Church. He holds a Master's degree in Divinity from Harvard University.</p>
                                             </div>
                                         </div>
                                     </div><!-- End Item -->
@@ -365,7 +400,7 @@ include('header.php');
                                             <img src="images/youtube_thumbs/thumb_3.jpg" alt="...">
                                             <div class="caption click_for_modal">
                                                 <h3><a href="javascript:void(0)">A Catholic TV asked Sheikh Yusuf Estes</a></h3>
-                                                <p>Yusuf Estes is an American preacher from Texas who converted from Christianity to Islam in 1991. He claims to have been a Muslim Chaplain for the United States Bureau of Prisons through the 1990s.</p>
+                                                <p>Yusuf Estes is an American preacher from Texas who converted from Christianity to Islam. He claims to have been a Muslim Chaplain.</p>
                                             </div>
                                         </div>
                                     </div><!-- End Item -->
@@ -376,7 +411,7 @@ include('header.php');
                                             <img src="images/youtube_thumbs/thumb_4.jpg" alt="...">
                                             <div class="caption click_for_modal">
                                                 <h3><a href="javascript:void(0)">Why I came to Islam</a></h3>
-                                                <p>Hamza Yusuf is an American Islamic scholar, and is co-founder of Zaytuna College. He is a proponent of classical learning in Islam and has promoted Islamic sciences throughout the world.</p>
+                                                <p>Hamza Yusuf is an American Islamic scholar, and is co-founder of Zaytuna College. He is a proponent of classical learning in Islam.</p>
                                             </div>
                                         </div>
                                     </div><!-- End Item -->
@@ -628,9 +663,10 @@ include('header.php');
                         <h4>Get A Quran</h4>
                         <h1>FREE</h1>
                         <h5>We have more than 60 languages</h5>
-                        <p class="btn_cont">
-                            <a href="#" class="btn btn-default dark">Download PDF</a>
-                            <span class="btn btn-default dark translate_online_btn" data-toggle="modal" data-target="#translator_modal">Translate online</span>
+                        <p class="btn_cont"> 
+                            <span class="btn btn-default dark translate_online_btn" data-toggle="modal" data-target="#translator_modal">Read/View</span>
+                            <a href="http://sendaquran.com/furqaan/" class="btn btn-default dark">Download Pdf</a>
+                            <a href="#" class="btn btn-default dark">Get By Mail</a>
                         </p>
                     </div>
                 </div>

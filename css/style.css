@@ -643,6 +643,8 @@ a:focus {
           margin: 0; }
           .listen_read .item ul li .audioplayer .audioplayer-volume {
             border-right: 1px solid #333; }
+        .listen_read .item ul li.no_icon::before {
+          content: ''; }
     .listen_read .item.read_quran {
       background-image: url(../images/pdf_icon.png); }
       .listen_read .item.read_quran ul li {
