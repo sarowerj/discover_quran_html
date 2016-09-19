@@ -142,9 +142,9 @@ include('header.php');
             </div>
         </div>
         <script type="text/javascript">
-            $(document).ready(function() {
+            $(document).ready(function () {
                 /*========== Languages Show Hide Button ==========*/
-                $('#show_hide_button').click(function() {
+                $('#show_hide_button').click(function () {
                     var status = $(this).attr('data-status');
                     if (status === 'hidden') {
                         $('.languages.all').slideDown();
@@ -174,7 +174,7 @@ include('header.php');
                         <div class="full_480 col-xs-6 col-sm-6 col-md-3"> 
                             <div class="item thumbnail click_for_modal" data-url="IYMKQKSV0bY" data-toggle="modal" data-target="#video_modal">
                                 <img src="images/youtube_thumbs/thumb_1.jpg" alt="...">
-                                <div class="caption click_for_modal">
+                                <div class="caption">
                                     <h3><a href="javascript:void(0)">How the Bible Led Me to Islam</a></h3>
                                     <p>Hamza Yusuf is an American Islamic scholar, and is co-founder of Zaytuna College. He is a proponent of classical learning in Islam</p>
                                 </div>
@@ -185,7 +185,7 @@ include('header.php');
                         <div class="full_480 col-xs-6 col-sm-6 col-md-3"> 
                             <div class="item thumbnail click_for_modal" data-url="dOZSrPF5GNo" data-toggle="modal" data-target="#video_modal">
                                 <img src="images/youtube_thumbs/thumb_2.jpg" alt="...">
-                                <div class="caption click_for_modal">
+                                <div class="caption">
                                     <h3><a href="javascript:void(0)">A Christian Minister's Conversion to Islam</a></h3>
                                     <p>Jerald Dirks is a former minister of the United Methodist Church. He holds a Master's degree in Divinity from Harvard University.</p>
                                 </div>
@@ -196,7 +196,7 @@ include('header.php');
                         <div class="full_480 col-xs-6 col-sm-6 col-md-3"> 
                             <div class="item thumbnail click_for_modal" data-url="P8i0Xvps8sg" data-toggle="modal" data-target="#video_modal">
                                 <img src="images/youtube_thumbs/thumb_3.jpg" alt="...">
-                                <div class="caption click_for_modal">
+                                <div class="caption">
                                     <h3><a href="javascript:void(0)">A Catholic TV asked Sheikh Yusuf Estes</a></h3>
                                     <p>Yusuf Estes is an American preacher from Texas who converted from Christianity to Islam. He claims to have been a Muslim Chaplain.</p>
                                 </div>
@@ -207,7 +207,7 @@ include('header.php');
                         <div class="full_480 col-xs-6 col-sm-6 col-md-3"> 
                             <div class="item thumbnail click_for_modal" data-url="Dm9tKqjp18Y" data-toggle="modal" data-target="#video_modal">
                                 <img src="images/youtube_thumbs/thumb_4.jpg" alt="...">
-                                <div class="caption click_for_modal">
+                                <div class="caption">
                                     <h3><a href="javascript:void(0)">Why I came to Islam</a></h3>
                                     <p>Hamza Yusuf is an American Islamic scholar, and is co-founder of Zaytuna College. He is a proponent of classical learning in Islam.</p>
                                 </div>
@@ -220,130 +220,8 @@ include('header.php');
     </section><!--End Video Slider-->
 
     <!-- Listen and Read Quran -->
-    <section class="section listen_read">
-        <div class="container">
-            <div class="row">
-                <div class="col-xs-12 col-md-6">
-                    <div class="item sj" data-animate="fadeInRight" data-animation-delay="400">
-                        <h1 class="section_title">Listen Qur’an Online</h1>
-                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam.</p>
-                        <div class="row">
-                            <div class="full_480 col-xs-12 col-md-9">
-                                <ul class="audio_links">
-                                    <li>
-                                        <a href="javascript:void(0)" data-satus="show" data-source="audio/BlueDucks_FourFlossFiveSix">
-                                            <span class="text">SURAH 001 - AL-FATIHA</span>
-                                            <audio class="audio" preload="auto" controls>' +
-                                                <source src="audio/BlueDucks_FourFlossFiveSix.mp3">
-                                                <source src="audio/BlueDucks_FourFlossFiveSix.ogg">
-                                                <source src="audio/BlueDucks_FourFlossFiveSix.wav">
-                                            </audio>
-                                        </a>
-                                    </li>
-                                    <li><a href="javascript:void(0)" data-satus="hidden" data-source="audio/horse"><span class="text">SURAH 002 - AL-BAQRAH A</span></span></a></li>
-                                    <li><a href="javascript:void(0)" data-satus="hidden" data-source="audio/BlueDucks_FourFlossFiveSix"><span class="text">SURAH 002 - AL-BAQRAH B</span></a></li>
-                                    <li><a href="javascript:void(0)" data-satus="hidden" data-source="audio/BlueDucks_FourFlossFiveSix"><span class="text">SURAH 002 - AL-BAQRAH C</span></a></li>
-                                    <li><a href="javascript:void(0)" data-satus="hidden" data-source="audio/BlueDucks_FourFlossFiveSix"><span class="text">SURAH 002 - AL-BAQRAH D</span></a></li>
-                                    <li class="no_icon"><a href="javascript:void(0)">Click for more</a></li>
-                                </ul>
-                            </div>
-                            <script type="text/javascript">
-                                $(document).ready(function() {
-                                    $('.audio_links li a span').click(function() {
-                                        var status = $(this).parent().attr('data-satus');
-                                        var source = $(this).parent().attr('data-source');
-                                        if (status === 'hidden') {
-                                            $('.audio_links li a').attr('data-satus', 'hidden');
-                                            $(this).parent().attr('data-satus', 'show');
-                                            $('.audio_links li .mejs-container').remove();
-                                            var html = '<audio class="audio" preload="auto" controls>' +
-                                                    '<source src="' + source + '.mp3">' +
-                                                    '<source src="' + source + '.ogg">' +
-                                                    '<source src="' + source + '.wav">' +
-                                                    '</audio>';
-                                            var button = '<a href="' + source + '.mp3" class="download_btn" download="' + source + '"><i class="fa fa-download"></i></a>';
-                                            $(this).parent().append(html);
-                                            $('audio').mediaelementplayer();
-                                            $('.audio_links li .mejs-controls').append(button);
-                                        } else {
-                                            $(this).parent().attr('data-satus', 'hidden');
-                                            $('.audio_links li .audioplayer').remove();
-                                        }
-                                    });
-                                });
-                            </script>
-                            <div class="full_480 col-xs-12 text-right text">
-                                <a href="javascript:void(0)" class="btn btn-default dark read_button">All Audio</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xs-12 col-md-6">
-                    <div class="items sj read_quran" data-animate="fadeInLeft" data-animation-delay="400">
-                        <img src="images/read_quran.jpg" alt="" />
-                        <!--
-                        <h1 class="section_title">Read Qur’an Online</h1>
-                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam.</p>
-                        <div class="row">
-                            <div class="full_480 col-xs-9 col-md-9">
-                                <ul class="read_quran_section">
-                                    <li>
-                                        <a class="read_quran_btn" href="javascript:void(0)" data-src="pdf/masayel-e-shirk-o-bid-at.pdf">We have collection of more than 70 languages.</a>
-                                        <div class="options">
-                                            <div class="row">
-                                                <div class="col-xs-6">
-                                                    <a href="pdf/masayel-e-shirk-o-bid-at.pdf" download="download"><i class="fa fa-download"></i> Download (25MB)</a>
-                                                </div>
-                                                <div class="col-xs-6 text-right">
-                                                    <a href="pdf/masayel-e-shirk-o-bid-at.pdf" target="_blank"><i class="fa fa-eye"></i> Read Online</a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <a class="read_quran_btn" href="javascript:void(0)" data-src="pdf/masayel-e-shirk-o-bid-at.pdf">Fully free to listen or gift.</a>
-                                    </li>
-                                    <li>
-                                        <a class="read_quran_btn" href="javascript:void(0)" data-src="pdf/masayel-e-shirk-o-bid-at.pdf">Can download to read in offline.</a>
-                                    </li>
-                                    <li>
-                                        <a class="read_quran_btn" href="javascript:void(0)" data-src="pdf/masayel-e-shirk-o-bid-at.pdf">Can share with social network.</a>
-                                    </li>
-                                    <li>
-                                        <a class="read_quran_btn" href="javascript:void(0)" data-src="pdf/masayel-e-shirk-o-bid-at.pdf">Can buy for publish.</a>
-                                    </li> 
-                                </ul>
-                                <script type="text/javascript">
-                                    $(document).ready(function () {
-                                        /*========== Read Quran Online ===========*/
-                                        $('.read_quran_btn').click(function () {
-                                            $('.read_quran_section li .options').remove();
-                                            var data_src = $(this).attr('data-src');
-                                            var html = '<div class="options">' +
-                                                    '<div class="row">' +
-                                                    '<div class="col-xs-6">' +
-                                                    '<a href="' + data_src + '" download><i class="fa fa-download"></i> Download (25MB)</a>' +
-                                                    '</div>' +
-                                                    '<div class="col-xs-6 text-right">' +
-                                                    '<a href="' + data_src + '" target="_blank"><i class="fa fa-eye"></i> Read Online</a>' +
-                                                    '</div>' +
-                                                    '</div>' +
-                                                    '</div>';
-                                            $(this).parent().append(html);
-                                        });
-                                    });
-                                </script>
-                            </div>
-                            <div class="full_480 col-xs-12 text-right text">
-                                <a href="javascript:void(0)" class="btn btn-default dark read_button">All PDF</a>
-                                <span class="hints">Click this button above to read in any language.</span>
-                            </div>
-                        </div-->
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section><!-- End Read and Listen Quran -->
+    <?php include('./listen_read.php'); ?>
+    <!-- End Read and Listen Quran -->
 
 
     <!-- Way of Life -->
@@ -525,10 +403,8 @@ include('header.php');
             <div class="row">
                 <div class="col-xs-12 col-md-8 pull-right">
                     <div class="content sj" data-animate="fadeInRight" data-animation-delay="400">
-                        <h1 class="section_title">Jesus and mary in Quran</h1>
-                        <p>The Quran MMus many wonderful things abounlesus (PEM) M a result, beheversin the Quran Love lesus (IMMO, honor him and believe in him_ In fact, no Muslim can be a Muslim unless be or she believes in Jesus, on whom be peace The Quran says that Jesus was Isom of a wrgin, that he spoke ;Able be was MP onlya baby, that he healed the Inhnd and the leper by Gm leave and that he raised the Mad by God's leave</p> 
-                        <p>The Quran MMus many wonderful things aboodesus (MUM M a result, behevers in the Quran Love Jesus (IMMO, honor him and believe in him_ In fact, no Muslim can be a Muslim unless be or she believes in Jesus, on whom be peace the Quran says Itallesus was Isom of a virgin.</p>
-                        <p>The Quran MMus many wonderful things aboodesus (MUM M a result, behevers in the Quran Love Jesus (MUM, honor him and believe in him_ In fact, no Muslim can be a Muslim unless be or she believes in Jesus, on whom be peace The Quran says Itallesus was Isom of a virgin. </p>
+                        <h1 class="section_title">Jesus and Mary in Quran</h1>
+                        <p>The Quran tells us many wonderful things about Jesus (PBUH). As a result, believers in the Quran love Jesus (PBUH), honor hirn and believe in him. In fact, no Muslirn can be a Muslim unless he or she believes in Jesus, on whom be peace. The Quran says that Jesus was bom of a virgin, that he spoke ,vhile he was still only a baby, that he healed the blind and the leper by God'sleave and that he raised the dead by God's leave. </p>
                     </div>
                 </div>
                 <div class="col-xs-12 col-md-4">
@@ -555,36 +431,46 @@ include('header.php');
                 </div>
                 <div class="col-xs-12">
                     <!-- FAQ --> 
-                    <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
-                        <div class="panel panel-default sj" data-animate="fadeInUp" data-animation-delay="200">
-                            <div class="panel-heading" role="tab" id="headingOne">
+                    <div class="panel-group" id="accordion">
+                        <div class="panel panel-default sj" data-animate="fadeInUp" data-animation-delay="150" id="panel1">
+                            <div class="panel-heading">
                                 <h4 class="panel-title">
-                                    <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
                                         You should not delay in becoming a Muslim.
                                     </a>
                                 </h4>
                             </div>
-                            <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+                            <div id="collapseOne" class="panel-collapse collapse in">
                                 <div class="panel-body">
                                     If someone advices you to delay your conversion to Islam. This is also incorrect. If you believe Islam is the truth then you should not delay your conversion to Islam. You should convert immediately because we are given a certain lifespan. Since we do not know when we are going to die. Not even a minute should be lost as your time to leave this life may be up the next minute. 
+                                    <audio preload="auto" controls>
+                                        <source src="audio/BlueDucks_FourFlossFiveSix.mp3">
+                                        <source src="audio/BlueDucks_FourFlossFiveSix.ogg">
+                                        <source src="audio/BlueDucks_FourFlossFiveSix.wav">
+                                    </audio>
                                 </div>
                             </div>
                         </div>
-                        <div class="panel panel-default sj" data-animate="fadeInUp" data-animation-delay="300">
+                        <div class="panel panel-default sj" data-animate="fadeInUp" data-animation-delay="300" id="panel2">
                             <div class="panel-heading">
                                 <h4 class="panel-title">
-                                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                    <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
                                         If you have tattoos you can still become a Muslim.
                                     </a>
                                 </h4>
                             </div>
-                            <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+                            <div id="collapseTwo" class="panel-collapse collapse">
                                 <div class="panel-body">
+                                    <audio preload="auto" controls>
+                                        <source src="audio/BlueDucks_FourFlossFiveSix.mp3">
+                                        <source src="audio/BlueDucks_FourFlossFiveSix.ogg">
+                                        <source src="audio/BlueDucks_FourFlossFiveSix.wav">
+                                    </audio>
                                     Some one may say to you that you must remove all tattoos to be a Muslim. This is also incorrect. Tattoos are not allowed in Islam but they DO NOT prevent a person becoming Muslim. You should become Muslims and latter you can have the tattoos removed if you can afford it. If you can not afford it then do not worry there is no sin on you for what you did before becoming Muslim You are still a Muslim. 
                                 </div>
                             </div>
                         </div>
-                        <div class="panel panel-default sj" data-animate="fadeInUp" data-animation-delay="400">
+                        <div class="panel panel-default sj" data-animate="fadeInUp" data-animation-delay="400" id="panel3">
                             <div class="panel-heading" role="tab" id="headingThree">
                                 <h4 class="panel-title">
                                     <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
@@ -599,7 +485,7 @@ include('header.php');
                                 </div>
                             </div>
                         </div>
-                        <div class="panel panel-default sj" data-animate="fadeInUp" data-animation-delay="500">
+                        <div class="panel panel-default sj" data-animate="fadeInUp" data-animation-delay="500"  id="panel4">
                             <div class="panel-heading" role="tab" id="headingFour">
                                 <h4 class="panel-title">
                                     <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="false" aria-controls="collapseThree">
@@ -613,7 +499,7 @@ include('header.php');
                                 </div>
                             </div>
                         </div>
-                        <div class="panel panel-default sj" data-animate="fadeInUp" data-animation-delay="600">
+                        <div class="panel panel-default sj" data-animate="fadeInUp" data-animation-delay="600"  id="panel5">
                             <div class="panel-heading" role="tab" id="headingFive">
                                 <h4 class="panel-title">
                                     <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFive" aria-expanded="false" aria-controls="collapseThree">

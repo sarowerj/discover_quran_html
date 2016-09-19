@@ -106,16 +106,8 @@
                         <li class="active"><a href="index.php">Home <span class="sr-only">(current)</span></a></li>
                         <li><a href="quran_translation_english.php">Quran Translation in English</a></li>
                         <li><a href="#">Audio</a></li>
-                        <li><a href="#">Video</a></li>
+                        <li><a href="video.php">Video</a></li>
                         <li><a href="software.php">Software</a></li>
-                        <!--li class="dropdown">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Software</a>
-                            <ul class="dropdown-menu">
-                                <li><a href="#">Action</a></li>
-                                <li><a href="#">Another action</a></li>
-                                <li><a href="#">Something else here</a></li>
-                            </ul>
-                        </li-->
                         <li><a href="how_to_be_a_muslim.php">How to become a muslim</a></li>
                         <li><a href="contact.php">Contact Us </a></li>
                     </ul> 

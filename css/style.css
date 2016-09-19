@@ -20,6 +20,9 @@ h1 {
   font-size: 40px;
   color: #204c55; }
 
+a {
+  color: #204c55; }
+
 .btn {
   border-radius: 0;
   padding: 9px 15px;
@@ -262,6 +265,11 @@ a:focus {
         content: '+'; }
   .panel-group .panel .panel-body {
     border: 1px solid #b9c9cc; }
+
+.panel .mejs-controls .mejs-time-rail {
+  width: 226px !important; }
+.panel .mejs-controls .mejs-time-total {
+  width: 215px !important; }
 
 /*== End Bootstrap Collapse ==*/
 /*========== Carousel Slider ==========*/
@@ -607,7 +615,8 @@ a:focus {
     background-image: url(../images/cd_icon.png);
     background-repeat: no-repeat;
     background-position: right bottom;
-    position: relative; }
+    position: relative;
+    min-height: 396px; }
     .listen_read .item .read_button {
       display: table;
       margin-top: -37px;
@@ -646,19 +655,19 @@ a:focus {
         .listen_read .item ul li.no_icon::before {
           content: ''; }
     .listen_read .item.read_quran {
-      background-image: url(../images/pdf_icon.png); }
-      .listen_read .item.read_quran ul li {
-        padding-left: 23px; }
-        .listen_read .item.read_quran ul li::before {
-          font: normal normal normal 16px/1 FontAwesome;
-          content: "\f1c1"; }
-        .listen_read .item.read_quran ul li .options {
-          background: #204c55;
-          padding: 5px 10px; }
-          .listen_read .item.read_quran ul li .options a {
-            color: white; }
-            .listen_read .item.read_quran ul li .options a .fa {
-              margin-right: 3px; }
+      background-image: url(../images/read_quran.jpg);
+      background-size: cover;
+      background-repeat: no-repeat; }
+      .listen_read .item.read_quran p {
+        font-size: 14px;
+        text-align: center;
+        font-weight: 600; }
+      .listen_read .item.read_quran .btn_cont {
+        margin-top: 40px; }
+        .listen_read .item.read_quran .btn_cont .btn-default {
+          font-size: 14px;
+          color: white;
+          text-transform: uppercase; }
 
 /*== End Listen and Read ==*/
 /*========== FAQ ==========*/
@@ -696,12 +705,14 @@ a:focus {
 /*== End of way of life ==*/
 /*========== Jesus and Mary ==========*/
 .jesus_mary {
+  padding-bottom: 30px;
   background: #f8f8f8; }
   .jesus_mary p {
     line-height: 26px;
     margin-bottom: 15px; }
   .jesus_mary h1.section_title {
-    text-align: left; }
+    text-align: left;
+    margin-top: 100px; }
   .jesus_mary .mejs-container {
     max-width: 320px;
     margin-left: 20px; }
@@ -841,6 +852,25 @@ footer .footer_last {
         margin-right: 15px; }
   .inner.quran_trans_english .listen_read {
     margin-top: 30px; }
+  .inner .video_gallery .video_item .caption h3 {
+    margin-bottom: 0;
+    min-height: 30px; }
+  .inner .video_gallery .video_item .caption p:last-child {
+    margin-bottom: 0; }
+  .inner .video_gallery .video_thumb {
+    padding-right: 15px; }
+    .inner .video_gallery .video_thumb .img_cont {
+      height: 95px;
+      overflow: hidden; }
+      .inner .video_gallery .video_thumb .img_cont img {
+        max-height: 95px; }
+    .inner .video_gallery .video_thumb .caption_cont {
+      padding-left: 0; }
+      .inner .video_gallery .video_thumb .caption_cont .caption {
+        padding-left: 0;
+        padding-right: 0; }
+        .inner .video_gallery .video_thumb .caption_cont .caption h5 {
+          margin: 0; }
 
 .flat .plan {
   border: 1px solid #f5f5f5;

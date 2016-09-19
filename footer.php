@@ -10,11 +10,11 @@
                         <div class="content">
                             <ul>
                                 <li><a href="#">About Us</a></li>
-                                <li><a href="#">Contact Us</a></li>
+                                <li><a href="contact.php">Contact Us</a></li>
                                 <li><a href="#">Privacy Policy</a></li>
-                                <li><a href="#">Success Stories</a></li>
-                                <li><a href="#">Endorsement</a></li>
-                                <li><a href="#">Compare</a></li>
+                                <li><a target="_blank" href="http://www.quranexplorer.com">Quranexplorer.com</a></li>
+                                <li><a target="_blank" href="http://sendaquran.com/furqaan/">Free Quran</a></li>
+                                <li><a target="_blank" href="https://quran.com/">Quran</a></li>
                             </ul>
                         </div>
                     </div>
@@ -60,7 +60,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-xs-12 col-md-8">
-                    <p class="copy_right_msg">Copyright &copy;2009 - 2014 Discover Quran. All Rights Reserved.
+                    <p class="copy_right_msg">Copyright &copy;2009 - 2016 Discover Quran. All Rights Reserved.
                         You are granted the right to copy and distribute contents free of charge for DAWA purposes, without changing the contents and the meaning of the contents. 
                         DISCLAIMER: The Project of Discover Quran does not necessarily share any of the views expressed on this site or any of the linked sites.</p>
                 </div>
@@ -236,6 +236,9 @@
                 $('.click_for_modal').click(function () {
                     var video_url = $(this).attr('data-url');
                     var title = $(this).children().children('h3').text();
+                    if(title.length==0){
+                        var title = $(this).find('.video_title').text();
+                    }
                     $('.video_modal .iframe_video').html('<iframe id="youtube_iframe" width="100%" height="400" src="https://www.youtube.com/embed/' + video_url + '" frameborder="0" allowfullscreen></iframe>');
                     $('.video_modal .modal-header h4').text(title);
                 });
